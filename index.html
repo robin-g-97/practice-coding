@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>p5.js example</title>
+
+    <style> 
+    html, body {
+      font-family: "Lucida Console";
+      background: lightgrey;
+      margin: 0px;
+      width:  100%;
+      height: 100%;
+      overflow: hidden;
+    } 
+    h1 {text-align: center;}
+    div{text-align: center; display: inline;}
+    </style>
+
+  </head>
+  <body>
+
+   <!-- <p>Amount of Spho enemies: <input type="text" id="Enemynumber" value= 3>
+    Spho size:<input type="text" id="Ballscale" value= 1></p>
+--> 
+    <h1>Level <div id="plevel"></div> (This means that there are <div id="enemycount"></div> enemies!)</h1>
+    <h1>
+      You have <div id="ppoints"></div> points out of <div id="maxpoints"></div>!
+    </h1>
+    <h1>
+      <script src="https://cdn.jsdelivr.net/npm/p5@1.2.0/lib/p5.js"></script>
+      <script src="bouncegame.js"></script>
+    </h1>
+    <h1> The goal of the game is to reach a high level without getting mad! Enemies move when you move the mouse, and they get faster the more points you get</h1>
+  </body>
+</html>
